@@ -1,0 +1,11 @@
+:root {
+    --bg-website-primary: #FFFFFF;
+    --bg-website-secondary: #eff1f5;
+    --bg-website-tertiary: #fafafa;
+}
+
+html[theme="dark"] {
+    --bg-website-primary: #2d2643;
+    --bg-website-secondary: #312a47;
+    --bg-website-tertiary: #27213a;
+}

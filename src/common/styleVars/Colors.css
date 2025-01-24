@@ -1,0 +1,34 @@
+:root {
+    --accent-primary: #74c1b9; /* #F56362 */
+    --accent-hover: #3fb6b0;
+
+    --second-accent-primary: #0785F2;
+    --second-accent-hover: #066bc1;
+
+    --third-accent-primary: #F29D35;
+    --third-accent-hover: #e19539;
+
+    --neutral-1: #f4f4f4;
+    --neutral-2: #e4e4e4;
+    --neutral-3: #aaaaaa;
+    --neutral-4: #999999;
+    --neutral-5: #666666;
+    --neutral-6: #333333;
+
+    --success-primary: #00b894;
+    --success-hover: #00a383;
+
+    --danger-primary: #d63031;
+    --danger-hover: #b22a2a;
+
+    --warning-primary: #fdcb6e;
+    --warning-hover: #f5c05b;
+
+    --disabled-color: var(--neutral-4);
+    --border-color: var(--neutral-5);
+}
+
+html[theme="dark"] {
+    --border-color: #6c628a;
+    --dark-border-color: #333333;
+}

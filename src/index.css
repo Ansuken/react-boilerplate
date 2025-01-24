@@ -1,0 +1,63 @@
+@import url('./_reset.css');
+@import url('./common/styleVars/Backgrounds.css');
+@import url('./common/styleVars/Texts.css');
+@import url('./common/styleVars/Colors.css');
+
+:root {
+  --font-family: "Poppins", sans-serif;
+  --font-weight: 400;
+
+  font-family: var(--font-family);
+  line-height: 1.5;
+  font-weight: var(--font-weight);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: var(--bg-website-secondary);
+  color: var(--text-base);
+}
+
+body {
+  margin: 0 auto;
+  height: 100vh;
+}
+
+#root {
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.1em;
+  letter-spacing: -.04em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.1em;
+  letter-spacing: -.04em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.1em;
+  letter-spacing: -.04em;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: .9em;
+  letter-spacing: -.04em;
+  font-weight: 700;
+
+}
+
+textarea {
+  resize: none;
+}

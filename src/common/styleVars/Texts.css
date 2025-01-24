@@ -1,0 +1,9 @@
+:root {
+    --text-base: #555555;
+    --text-secondary: #A2A8B4;
+}
+
+html[theme="dark"] {
+    --text-base: #EEEEEE;
+    --text-secondary: #A2A8B4;
+}
